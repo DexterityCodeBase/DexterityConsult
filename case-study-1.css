@@ -1,0 +1,14 @@
+.head {
+  position: relative;
+  display: inline-block;
+}
+
+.head::before {
+  position: absolute;
+  content: "";
+  width: 75%;
+  height: 3px;
+  bottom: -5px;
+  left: 0%;
+  background-color: red;
+}
