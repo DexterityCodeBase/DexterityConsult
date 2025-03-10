@@ -11285,7 +11285,7 @@ header {
   background-color: #0e1e36;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
-  position: fixed !important;
+  position: fied !important;
 }
 
 header.transparent {
@@ -11408,7 +11408,7 @@ header.header-1 .top-header {
   padding: 9px 15px;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
-  position: fixed !important;
+  /* position: absolute !important; */
   -webkit-filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.16));
   filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.16));
 }
@@ -17458,10 +17458,9 @@ header.hover-color-green
   gap: 30px 30px;
   -ms-grid-columns: minmax(210px, 318px) 30px minmax(210px, 318px) 30px
     minmax(210px, 318px) 30px minmax(210px, 318px);
-  grid-template-columns: minmax(210px, 318px) minmax(210px, 318px) minmax(
-      210px,
-      318px
-    ) minmax(210px, 318px);
+  grid-template-columns:
+    minmax(210px, 318px) minmax(210px, 318px) minmax(210px, 318px)
+    minmax(210px, 318px);
 }
 
 @media (max-width: 1199px) {
